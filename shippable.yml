@@ -27,6 +27,7 @@ build:
     - packer --version #1.3.2 
     - jq --version
     - kubectl version --client #1.12.2
+    - pip show azure
     - az --version #3.0.0
     - docker --version
     - EXPECTED_DOCKER_VERSION="18.03.1-ce"
